@@ -15,6 +15,6 @@ public class Hellocontroller {
     }
     @GetMapping("/msgGreet/{name}")
     public String sayHello(@PathVariable("name")String inputName)
-    {return "Heloo" +inputName+",Welcome to java framework";}
+    {return "Heloo" +inputName+",Welcome to Java framework";}
 
 }
